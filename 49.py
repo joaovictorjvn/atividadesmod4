@@ -1,0 +1,7 @@
+hor = int(input("Informe a atual hora: "))
+min = int(input("Informe o atual minuto: "))
+seg = int(input("Informe o atual segundo: "))
+durh = int(input("Informe as horas de duração do evento: "))
+durm = int(input("Informe os minutos de duração do evento(Acompanha as horas inseridas anteriormente): "))
+durs = int(input("Informe os segundos de duração do evento(Acompanha as horas inseridas anteriormente): "))
+print(f'O horário de termino da reunião é as {hor + durh}:{min + durm}:{seg + durs}')
